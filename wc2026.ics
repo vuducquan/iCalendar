@@ -1,13 +1,76 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Sự kiện của tôi//VN
+PRODID:-//World Cup 2026 Vietnam//VI
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:⚽ World Cup 2026 – Giờ Việt Nam
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+X-WR-CALDESC:FIFA World Cup 2026 – 104 trận theo giờ Việt Nam (IC
+ T UTC+7). Nguồn: Fox Sports / FIFA.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:uid1@example.com
-DTSTAMP:20260606T120000Z
-DTSTART:20260612T070000Z
-DTEND:20260612T083000Z
-SUMMARY:Đưa con đi thi
-LOCATION:Trường THCS Ngọc Thụy - Ha Noi
-DESCRIPTION:Đưa con gái đi thi tốt nghiệp lớp 12
+UID:wc2026-m001-276c09@wc26vn
+SUMMARY:Trận 1 ⚽ [A] Mexico vs Nam Phi
+DTSTART:20260611T190000Z
+DTEND:20260611T210000Z
+LOCATION:Mexico City
+DESCRIPTION:Trận #1 | Bảng A | Lượt 1\nGiờ VN: 02:00 ngày 12/06
+ \nSân: Mexico City\nKênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vt
+ v3-3.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026 - tran dau bat dau sau 4 tieng
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m002-8c7ad1@wc26vn
+SUMMARY:Trận 2 ⚽ [A] Hàn Quốc vs Czechia
+DTSTART:20260612T020000Z
+DTEND:20260612T040000Z
+LOCATION:Guadalajara
+DESCRIPTION:Trận #2 | Bảng A | Lượt 1\nGiờ VN: 09:00 ngày 12/06
+ \nSân: Guadalajara\nLịch World Cup chi tiết: https://www.thegioidid
+ ong.com/hoi-dap/lich-thi-dau-world-cup-2026-gio-vn-104-tran-the-1591987\
+ nKênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vt
+ v3-3.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026 - tran dau bat dau sau 4 tieng
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m003-3901c7@wc26vn
+SUMMARY:Trận 3 ⚽ [B] Canada vs Bosnia-Herzegovina
+DTSTART:20260612T190000Z
+DTEND:20260612T210000Z
+LOCATION:Toronto
+DESCRIPTION:Trận #3 | Bảng B | Lượt 1\nGiờ VN: 02:00 ngày 13/06
+ \nSân: Toronto\nKênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3
+ .html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026 - tran dau bat dau sau 4 tieng
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT4H
+END:VALARM
 END:VEVENT
 END:VCALENDAR
