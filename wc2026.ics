@@ -5,8 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ World Cup 2026 – Giờ Việt Nam
 X-WR-TIMEZONE:Asia/Ho_Chi_Minh
-X-WR-CALDESC:FIFA World Cup 2026 – 104 trận theo giờ Việt Nam (IC
- T UTC+7). Nguồn: Fox Sports / FIFA.
+X-WR-CALDESC:FIFA World Cup 2026 – 104 trận theo giờ Việt Nam (ICT UTC+7). Nguồn: Fox Sports / FIFA. Ban CĐSCN Vietnam Airlines.
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 UID:wc2026-m001-276c09@wc26vn
@@ -14,9 +13,7 @@ SUMMARY:Trận 1 ⚽ [A] Mexico vs Nam Phi
 DTSTART:20260611T190000Z
 DTEND:20260611T210000Z
 LOCATION:Mexico City
-DESCRIPTION:Trận #1 | Bảng A | Lượt 1\nGiờ VN: 02:00 ngày 12/06
- \nSân: Mexico City\nKênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vt
- v3-3.html
+DESCRIPTION:Trận #1 | Bảng A | Lượt 1\nGiờ VN: 02:00 ngày 12/06 \nSân: Mexico City\n Kênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -35,9 +32,7 @@ SUMMARY:Trận 2 ⚽ [A] Hàn Quốc vs Czechia
 DTSTART:20260612T020000Z
 DTEND:20260612T040000Z
 LOCATION:Guadalajara
-DESCRIPTION:Trận #2 | Bảng A | Lượt 1\nGiờ VN: 09:00 ngày 12/06
- \nSân: Guadalajara\nKênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vt
- v3-3.html
+DESCRIPTION:Trận #2 | Bảng A | Lượt 1\nGiờ VN: 09:00 ngày 12/06 \nSân: Guadalajara\n Kênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -56,9 +51,7 @@ SUMMARY:Trận 3 ⚽ [B] Canada vs Bosnia-Herzegovina
 DTSTART:20260612T190000Z
 DTEND:20260612T210000Z
 LOCATION:Toronto
-DESCRIPTION:Trận #3 | Bảng B | Lượt 1\nGiờ VN: 02:00 ngày 13/06
- \nSân: Toronto\nKênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3
- .html
+DESCRIPTION:Trận #3 | Bảng B | Lượt 1\nGiờ VN: 02:00 ngày 13/06 \nSân: Toronto\nKênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -71,4 +64,136 @@ ACTION:AUDIO
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
-END:VCALENDAR
+BEGIN:VEVENT
+UID:wc2026-m004-366e79@wc26vn
+SUMMARY:Trận 4 ⚽ [D] USA vs Paraguay
+DTSTART:20260613T010000Z
+DTEND:20260613T030000Z
+LOCATION:Los Angeles
+DESCRIPTION:Trận #4 | Bảng D | Lượt 1\nGiờ VN: 08:00 ngày 13/06 \nSân: Los Angeles\n Kênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026 - tran dau bat dau sau 4 tieng
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m005-372914@wc26vn
+SUMMARY:Trận 5 ⚽ [B] Qatar vs Thụy Sĩ
+DTSTART:20260613T190000Z
+DTEND:20260613T210000Z
+LOCATION:SF Bay Area
+DESCRIPTION:Trận #5 | Bảng B | Lượt 1\nGiờ VN: 02:00 ngày 14/06 \nSân: SF Bay Area\n Kênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026 - tran dau bat dau sau 4 tieng
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m006-af3024@wc26vn
+SUMMARY:Trận 6 ⚽ [C] Brazil vs Morocco
+DTSTART:20260613T220000Z
+DTEND:20260614T000000Z
+LOCATION:New York/New Jersey
+DESCRIPTION:Trận #6 | Bảng C | Lượt 1\nGiờ VN: 05:00 ngày 14/06 \nSân: New York/New Jersey\nKênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026 - tran dau bat dau sau 4 tieng
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m007-0024a0@wc26vn
+SUMMARY:Trận 7 ⚽ [C] Haiti vs Scotland
+DTSTART:20260614T010000Z
+DTEND:20260614T030000Z
+LOCATION:Boston
+DESCRIPTION:Trận #7 | Bảng C | Lượt 1\nGiờ VN: 08:00 ngày 14/06 \nSân: Boston\nKênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026 - tran dau bat dau sau 4 tieng
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m008-e43f7d@wc26vn
+SUMMARY:Trận 8 ⚽ [D] Australia vs Thổ Nhĩ Kỳ
+DTSTART:20260614T040000Z
+DTEND:20260614T060000Z
+LOCATION:Vancouver
+DESCRIPTION:Trận #8 | Bảng D | Lượt 1\nGiờ VN: 11:00 ngày 14/06 \nSân: Vancouver\nKênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026 - tran dau bat dau sau 4 tieng
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m009-4f9f24@wc26vn
+SUMMARY:Trận 9 ⚽ [E] Đức vs Curaçao
+DTSTART:20260614T170000Z
+DTEND:20260614T190000Z
+LOCATION:Houston
+DESCRIPTION:Trận #9 | Bảng E | Lượt 1\nGiờ VN: 00:00 ngày 15/06 \nSân: Houston\nKênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026 - tran dau bat dau sau 4 tieng
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m010-55172e@wc26vn
+SUMMARY:Trận 10 ⚽ [F] Hà Lan vs Nhật Bản
+DTSTART:20260614T200000Z
+DTEND:20260614T220000Z
+LOCATION:Dallas
+DESCRIPTION:Trận #10 | Bảng F | Lượt 1\nGiờ VN: 03:00 ngày 15/06\nSân: Dallas\nKênh xem: VTV3\nLink xem VTV3: https://vtvgo.vn/xem-truc-tuyen-kenh-vtv3-3.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026 - tran dau bat dau sau 4 tieng
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
